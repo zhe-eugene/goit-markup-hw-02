@@ -1,0 +1,227 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.general-logo {
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+/* --------------------HEADER----------------------- */
+
+.header {}
+
+.header-navigation {}
+
+.header-navigation-logo {}
+
+.header-navigation-logo span {
+    line-height: 3.55556;
+    color: #2e2f42;
+}
+
+.header-navigation-list {}
+
+
+.header-navigation-item {}
+
+
+.header-navigation-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-navigation-link:hover,
+.header-navigation-link:focus {
+    color: #404bbf;
+}
+
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-list {}
+
+.header-address-item {}
+
+.header-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404bbf;
+}
+
+/* --------------------MAIN----------------------- */
+/* --------------------section-main----------------------- */
+
+.section-main {
+    background: #2e2f42;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.main-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* --------------------section-advantages----------------------- */
+
+.section-advantages {
+    background: #fff
+}
+
+
+.advantages-list {}
+
+.advantages-item {}
+
+.advantages-subtitle {}
+
+.advantages-text {}
+
+
+/* --------------------section-ourteam----------------------- */
+
+.section-ourteam {
+    background: #f4f4fd;
+}
+
+.ourteam-title {}
+
+.ourteam-list {}
+
+.ourteam-item {}
+
+.ourteam-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.ourteam-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.ourteam-image {}
+
+/* --------------------section-ourportfolio----------------------- */
+
+.section-ourportfolio {
+    background: #fff;
+}
+
+.ourportfolio-title {}
+
+.ourportfolio-list {}
+
+.ourportfolio-item {}
+
+.ourportfolio-image {}
+
+.ourportfolio-subtitle {}
+
+.ourportfolio-text {}
+
+
+/* --------------------FOOTER----------------------- */
+
+.footer {
+    background: #2e2f42;
+}
+
+.footer-logo {}
+
+.footer-logo span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
