@@ -87,7 +87,8 @@ a {
     color: #434455;
 }
 
-.header-address-link:hover {
+.header-address-link:hover,
+.header-address-link:focus {
     color: #404bbf;
 }
 
@@ -142,7 +143,7 @@ a {
 /* --------------------section-ourteam----------------------- */
 
 .section-ourteam {
-    background: #f4f4fd;
+    background-color: #FFFFFF;
 }
 
 .ourteam-title {
@@ -214,7 +215,7 @@ a {
 
 .footer-logo {}
 
-.footer-logo span {
+.footer-span {
     color: #f4f4fd;
 }
 
