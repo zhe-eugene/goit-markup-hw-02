@@ -155,11 +155,11 @@ a {
     text-transform: capitalize;
 }
 
-.ourteam-list {
+.ourteam-list {}
+
+.ourteam-item {
     background-color: #FFFFFF;
 }
-
-.ourteam-item {}
 
 .ourteam-subtitle {
     font-weight: 500;
