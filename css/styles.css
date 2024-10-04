@@ -46,8 +46,7 @@ a {
 
 .header-navigation-logo {}
 
-.header-navigation-logo span {
-    line-height: 3.55556;
+.header-span {
     color: #2e2f42;
 }
 
