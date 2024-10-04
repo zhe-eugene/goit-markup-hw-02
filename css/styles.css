@@ -115,11 +115,12 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .main-btn:hover,
 .main-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF
 }
 
 /* --------------------section-advantages----------------------- */
