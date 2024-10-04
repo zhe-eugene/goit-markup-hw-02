@@ -12,19 +12,7 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+.visually-hidden {}
 
 .section-subtitle {
     font-weight: 500;
@@ -226,11 +214,6 @@ a {
 .footer-logo {}
 
 .footer-logo span {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #f4f4fd;
 }
 
